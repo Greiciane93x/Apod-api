@@ -6,6 +6,7 @@ class UserModel{
             this._data = data; 
         }
         this._imagem = ""; 
+        this._explanation =""; 
 
     }
 
@@ -35,12 +36,16 @@ class UserModel{
     {
         this._data = dados.date;
         this._imagem = dados.url; 
+        this._explanation = dados.explanation; 
     }
     getData(){
         return this._data; 
     }
     getImagem(){
         return this._imagem; 
+    }
+    getExplanation(){
+        return this._explanation; 
     }
 
 }
@@ -49,8 +54,15 @@ class UserView{
        let imagem = document.querySelector("#conteudo"); 
         imagem.innerHTML = `
             <img src=${model.getImagem()}> 
+        
         ` 
         document.body.appendChild( imagem ); 
+        let texto = document.querySelector("#conteudoTxt")
+        texto.innerHTML = `
+            ${model.getExplanation()} 
+        ` 
+        document.body.appendChild(texto); 
+
     }
 }
 class Usercontroller{

@@ -12,6 +12,7 @@ body{
     align-items: center;
     flex-direction: column;
     background-color: black;
+  
 
 }
 input{
@@ -21,17 +22,24 @@ button{
     margin-top: 15px;
     margin-bottom: 15px;
 }
-#saudacao1{
-    margin-left: 700px;
-    margin-top: -55px;
-    width: 60px;
+
+#conteudo{
+    display: flex; 
+    flex-direction: column;
+   
 }
-#saudacao2{
-    margin-right: 700px;
-    margin-top: -60px;
-    width: 60px;
+
+#conteudoTxt{
+    display: flex;
+    align-content: flex-end;
+    flex-direction: column;
+    margin-top:20px;
+    margin-bottom: 20px;
+    width: 750px;
+    color:white;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+
 }
-.form{
-    margin-top: 22px;
-}
+
 
