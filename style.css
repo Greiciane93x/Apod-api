@@ -6,6 +6,17 @@ h1{
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #000;
     font-size: 3em; color: #fffdd9;
+    margin-left: 90px;
+}
+
+h1{
+    margin-top: 22px;
+    color:yellow;
+    font-family: fantasy;
+    font-size: 30px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000;
+    font-size: 3em; color: #fffdd9;
 }
 body{
     display: flex;
@@ -27,6 +38,7 @@ button{
     display: flex; 
     flex-direction: column;
    
+   
 }
 
 #conteudoTxt{
@@ -41,5 +53,3 @@ button{
     font-size: 18px;
 
 }
-
-

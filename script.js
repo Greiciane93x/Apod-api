@@ -54,9 +54,10 @@ class UserView{
        let imagem = document.querySelector("#conteudo"); 
         imagem.innerHTML = `
             <img src=${model.getImagem()}> 
+            
         
         ` 
-        document.body.appendChild( imagem ); 
+        document.body.appendChild(imagem); 
         let texto = document.querySelector("#conteudoTxt")
         texto.innerHTML = `
             ${model.getExplanation()} 
@@ -71,7 +72,7 @@ class Usercontroller{
         dados.buscaImagem(); 
 
         let view = new UserView();
-        view.render( dados ); 
+        view.render(dados); 
     }
     
 }
