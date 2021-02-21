@@ -4,4 +4,4 @@ Nesta API, ao escolher umaa data específica, é possível buscar uma imagem e s
 <br/>
 
 <hr> 
-<img src="https://pbs.twimg.com/profile_images/67630775/button_meatball.png" />
+<img src="https://pbs.twimg.com/profile_images/67630775/button_meatball.png" margin-left="220px"/>
