@@ -1,4 +1,4 @@
-# Apod-api
+# Astronomy Picture of the day [API]<br/> 
 Nesta API, ao escolher umaa data específica, é possível buscar uma imagem e sua explicação feita pela NASA;</br>
 __Utilizando XMLHttpRequest__
 <br/>
